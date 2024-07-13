@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+.ubuntu-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .varela-round-regular {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+nav ul{
+   display: flex; 
+   align-items: center;
+   list-style-type: none;
+   background: black;
+   height: 69px;
+   color: white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 45px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.container{
+    height: 72vh;
+    background: #000;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('pngtree-mawlid-al-nabi-islamic-luxury-arabesque-background-image_411383.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background: #000;
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+.icons{
+    margin-top: 20px;
+}
+.icons i{
+    cursor: pointer;
+}
+#progressBar{
+    width: 75vw;
+    cursor: pointer;
+ 
+    
+}
+.songitem{
+height: 25px;
+display: flex;
+background-color: white;
+
+color: black;
+margin: 12px 0;
+justify-content: space-between;
+border-radius: 29px;
+padding: 12px;
+
+}
+
+.songitem img{
+width: 40px;
+margin: 0 23px ;
+border-radius: 34px;
+}
+.time{
+    margin: 0 23px;
+   
+}
+.time i{
+    cursor: pointer;
+}
+.songItemsContainer{
+   margin-top: 40px;
+   margin-left: -55px;
+}
+.m{
+    color: white;
+}
+.songInfo{
+    position: absolute;
+    left: 13vw;
+
+}
+.m img{
+opacity: 0;
+transition: opacity 0.4s ease-in;
+}
